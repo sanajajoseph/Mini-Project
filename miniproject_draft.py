@@ -218,7 +218,7 @@ while option_m !="0":
                 print('New product list is\n')
                 display_fn(cursor,ord_keys,'order_list',1) 
         
-                                        #update existing order
+                                        #update existing order#
             elif option_ord =="4":
                 print("\n The existing orders are")
                 display_fn(cursor,ord_keys,'order_list',0)
