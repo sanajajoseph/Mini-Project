@@ -29,12 +29,24 @@ General logic :
                     iv. Courier Menu.    
 
                 Define four fuctions:
-                        i. Display (for both Menus and database tables)
-                        ii. Add
-                        iii. Update
-                        iv. Delete
-                Estabish connection to the database
+                        i. Display (for both Menus and database tables).
+                        ii. Add.
+                        iii. Update.
+                        iv. Delete.
+                Estabish connection to the database.
 
                 Define Main body:
                         Get user input for menu option and call apropriate function.
                         If inpt = 0, back or exit
+
+
+Testing :
+               - Unit testing and Validation.
+To improve:  
+                -Courier availibility check before assigining.
+                -Product stock check before ordering.
+
+Comfortable Zone : 
+                -Database.               
+
+
