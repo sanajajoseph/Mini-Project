@@ -13,7 +13,7 @@ Technical Specifications:
 
 Explanation about the Files:
 
-                miniproject_draft.py :- Main Project Page.
+                miniproject_final_draft.py :- Main Project Page.
                 .env File            :- Contains mysql host,user,password and database variables details.
 
 
