@@ -3,24 +3,38 @@ Generation Miniproject
 Title: Caffe
 
 Customer Requirements:
-                -Collection of Products and couriers.
-                -Makes order and update the status of Order.
-                -All Data should be persisted.
+                 -Collection of Products and couriers.
+                 -Makes order and update the status of Order.
+                 -All Data should be persisted.
 
 Technical Specifications:
-                 - Frontend :- Visual Studio Code using Python.
-                 - Backend  :- PYMYSQL    (Database).  
+                 - Program :- Visual Studio Code using Python.
+                 - Database  :- PYMYSQL.  
 
 Explanation about the Files:
 
                 miniproject_draft.py :- Main Project Page.
-                .env File            :- It contains mysql host,user,password and database variables.
+                .env File            :- Contains mysql host,user,password and database variables details.
 
 
-Summary of Project :
-                Main Menus:-
+General logic :
+                Define the Menus:
+                    i. Main Menus:-
                             1.Product Menu.
                             2.Orders Menu.
                             3.Courier Menu.
                             4.Exit.
-                Main Menu's has Submenus.                             
+                    ii. Product Menu.
+                    ii. Orders Menu.
+                    iv. Courier Menu.    
+
+                Define four fuctions:
+                        i. Display (for both Menus and database tables)
+                        ii. Add
+                        iii. Update
+                        iv. Delete
+                Estabish connection to the database
+
+                Define Main body:
+                        Get user input for menu option and call apropriate function.
+                        If inpt = 0, back or exit
